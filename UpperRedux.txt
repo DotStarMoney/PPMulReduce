@@ -1,0 +1,908 @@
+---------------------Initial Structure----------------
+
+31 46 61 76 91 106 121 136 151 166 181 196 211 226 241 
+47 62 77 92 107 122 137 152 167 182 197 212 227 242 
+63 78 93 108 123 138 153 168 183 198 213 228 243 
+79 94 109 124 139 154 169 184 199 214 229 244 
+95 110 125 140 155 170 185 200 215 230 245 
+111 126 141 156 171 186 201 216 231 246 
+127 142 157 172 187 202 217 232 247 
+143 158 173 188 203 218 233 248 
+159 174 189 204 219 234 249 
+175 190 205 220 235 250 
+191 206 221 236 251 
+207 222 237 252 
+223 238 253 
+239 254 
+255 
+
+---------------------Adder Blocks------------------
+Block #0:
+	Type:	Full Adder
+	A:	31
+	B:	46
+	CI:	61
+
+	O:	256s
+	CO:	257s
+
+Block #1:
+	Type:	Full Adder
+	A:	47
+	B:	62
+	CI:	77
+
+	O:	258s
+	CO:	259s
+
+Block #2:
+	Type:	Half Adder
+	A:	63
+	B:	78
+
+	O:	260s
+	CO:	261s
+
+*********************** NEW LAYER *********************
+Block #4:
+	Type:	Full Adder
+	A:	256s
+	B:	76
+	CI:	91
+
+	O:	262s
+	CO:	263s
+
+Block #5:
+	Type:	Full Adder
+	A:	106
+	B:	121
+	CI:	136
+
+	O:	264s
+	CO:	265s
+
+Block #6:
+	Type:	Full Adder
+	A:	257s
+	B:	258s
+	CI:	92
+
+	O:	266s
+	CO:	267s
+
+Block #7:
+	Type:	Full Adder
+	A:	107
+	B:	122
+	CI:	137
+
+	O:	268s
+	CO:	269s
+
+Block #8:
+	Type:	Full Adder
+	A:	152
+	B:	167
+	CI:	182
+
+	O:	270s
+	CO:	271s
+
+Block #9:
+	Type:	Full Adder
+	A:	259s
+	B:	260s
+	CI:	93
+
+	O:	272s
+	CO:	273s
+
+Block #10:
+	Type:	Full Adder
+	A:	108
+	B:	123
+	CI:	138
+
+	O:	274s
+	CO:	275s
+
+Block #11:
+	Type:	Full Adder
+	A:	153
+	B:	168
+	CI:	183
+
+	O:	276s
+	CO:	277s
+
+Block #12:
+	Type:	Half Adder
+	A:	198
+	B:	213
+
+	O:	278s
+	CO:	279s
+
+Block #13:
+	Type:	Full Adder
+	A:	261s
+	B:	79
+	CI:	94
+
+	O:	280s
+	CO:	281s
+
+Block #14:
+	Type:	Full Adder
+	A:	109
+	B:	124
+	CI:	139
+
+	O:	282s
+	CO:	283s
+
+Block #15:
+	Type:	Full Adder
+	A:	154
+	B:	169
+	CI:	184
+
+	O:	284s
+	CO:	285s
+
+Block #16:
+	Type:	Full Adder
+	A:	199
+	B:	214
+	CI:	229
+
+	O:	286s
+	CO:	287s
+
+Block #17:
+	Type:	Full Adder
+	A:	95
+	B:	110
+	CI:	125
+
+	O:	288s
+	CO:	289s
+
+Block #18:
+	Type:	Full Adder
+	A:	140
+	B:	155
+	CI:	170
+
+	O:	290s
+	CO:	291s
+
+Block #19:
+	Type:	Full Adder
+	A:	185
+	B:	200
+	CI:	215
+
+	O:	292s
+	CO:	293s
+
+Block #20:
+	Type:	Full Adder
+	A:	111
+	B:	126
+	CI:	141
+
+	O:	294s
+	CO:	295s
+
+Block #21:
+	Type:	Full Adder
+	A:	156
+	B:	171
+	CI:	186
+
+	O:	296s
+	CO:	297s
+
+Block #22:
+	Type:	Full Adder
+	A:	127
+	B:	142
+	CI:	157
+
+	O:	298s
+	CO:	299s
+
+*********************** NEW LAYER *********************
+Block #24:
+	Type:	Full Adder
+	A:	262s
+	B:	264s
+	CI:	151
+
+	O:	300s
+	CO:	301s
+
+Block #25:
+	Type:	Half Adder
+	A:	166
+	B:	181
+
+	O:	302s
+	CO:	303s
+
+Block #26:
+	Type:	Full Adder
+	A:	263s
+	B:	265s
+	CI:	266s
+
+	O:	304s
+	CO:	305s
+
+Block #27:
+	Type:	Full Adder
+	A:	268s
+	B:	270s
+	CI:	197
+
+	O:	306s
+	CO:	307s
+
+Block #28:
+	Type:	Half Adder
+	A:	212
+	B:	227
+
+	O:	308s
+	CO:	309s
+
+Block #29:
+	Type:	Full Adder
+	A:	267s
+	B:	269s
+	CI:	271s
+
+	O:	310s
+	CO:	311s
+
+Block #30:
+	Type:	Full Adder
+	A:	272s
+	B:	274s
+	CI:	276s
+
+	O:	312s
+	CO:	313s
+
+Block #31:
+	Type:	Full Adder
+	A:	278s
+	B:	228
+	CI:	243
+
+	O:	314s
+	CO:	315s
+
+Block #32:
+	Type:	Full Adder
+	A:	273s
+	B:	275s
+	CI:	277s
+
+	O:	316s
+	CO:	317s
+
+Block #33:
+	Type:	Full Adder
+	A:	279s
+	B:	280s
+	CI:	282s
+
+	O:	318s
+	CO:	319s
+
+Block #34:
+	Type:	Full Adder
+	A:	284s
+	B:	286s
+	CI:	244
+
+	O:	320s
+	CO:	321s
+
+Block #35:
+	Type:	Full Adder
+	A:	281s
+	B:	283s
+	CI:	285s
+
+	O:	322s
+	CO:	323s
+
+Block #36:
+	Type:	Full Adder
+	A:	287s
+	B:	288s
+	CI:	290s
+
+	O:	324s
+	CO:	325s
+
+Block #37:
+	Type:	Full Adder
+	A:	292s
+	B:	230
+	CI:	245
+
+	O:	326s
+	CO:	327s
+
+Block #38:
+	Type:	Full Adder
+	A:	289s
+	B:	291s
+	CI:	293s
+
+	O:	328s
+	CO:	329s
+
+Block #39:
+	Type:	Full Adder
+	A:	294s
+	B:	296s
+	CI:	201
+
+	O:	330s
+	CO:	331s
+
+Block #40:
+	Type:	Full Adder
+	A:	216
+	B:	231
+	CI:	246
+
+	O:	332s
+	CO:	333s
+
+Block #41:
+	Type:	Full Adder
+	A:	295s
+	B:	297s
+	CI:	298s
+
+	O:	334s
+	CO:	335s
+
+Block #42:
+	Type:	Full Adder
+	A:	172
+	B:	187
+	CI:	202
+
+	O:	336s
+	CO:	337s
+
+Block #43:
+	Type:	Full Adder
+	A:	217
+	B:	232
+	CI:	247
+
+	O:	338s
+	CO:	339s
+
+Block #44:
+	Type:	Full Adder
+	A:	299s
+	B:	143
+	CI:	158
+
+	O:	340s
+	CO:	341s
+
+Block #45:
+	Type:	Full Adder
+	A:	173
+	B:	188
+	CI:	203
+
+	O:	342s
+	CO:	343s
+
+Block #46:
+	Type:	Full Adder
+	A:	218
+	B:	233
+	CI:	248
+
+	O:	344s
+	CO:	345s
+
+Block #47:
+	Type:	Full Adder
+	A:	159
+	B:	174
+	CI:	189
+
+	O:	346s
+	CO:	347s
+
+Block #48:
+	Type:	Full Adder
+	A:	204
+	B:	219
+	CI:	234
+
+	O:	348s
+	CO:	349s
+
+Block #49:
+	Type:	Full Adder
+	A:	175
+	B:	190
+	CI:	205
+
+	O:	350s
+	CO:	351s
+
+*********************** NEW LAYER *********************
+Block #51:
+	Type:	Full Adder
+	A:	300s
+	B:	302s
+	CI:	196
+
+	O:	352s
+	CO:	353s
+
+Block #52:
+	Type:	Full Adder
+	A:	301s
+	B:	303s
+	CI:	304s
+
+	O:	354s
+	CO:	355s
+
+Block #53:
+	Type:	Half Adder
+	A:	306s
+	B:	308s
+
+	O:	356s
+	CO:	357s
+
+Block #54:
+	Type:	Full Adder
+	A:	305s
+	B:	307s
+	CI:	309s
+
+	O:	358s
+	CO:	359s
+
+Block #55:
+	Type:	Full Adder
+	A:	310s
+	B:	312s
+	CI:	314s
+
+	O:	360s
+	CO:	361s
+
+Block #56:
+	Type:	Full Adder
+	A:	311s
+	B:	313s
+	CI:	315s
+
+	O:	362s
+	CO:	363s
+
+Block #57:
+	Type:	Full Adder
+	A:	316s
+	B:	318s
+	CI:	320s
+
+	O:	364s
+	CO:	365s
+
+Block #58:
+	Type:	Full Adder
+	A:	317s
+	B:	319s
+	CI:	321s
+
+	O:	366s
+	CO:	367s
+
+Block #59:
+	Type:	Full Adder
+	A:	322s
+	B:	324s
+	CI:	326s
+
+	O:	368s
+	CO:	369s
+
+Block #60:
+	Type:	Full Adder
+	A:	323s
+	B:	325s
+	CI:	327s
+
+	O:	370s
+	CO:	371s
+
+Block #61:
+	Type:	Full Adder
+	A:	328s
+	B:	330s
+	CI:	332s
+
+	O:	372s
+	CO:	373s
+
+Block #62:
+	Type:	Full Adder
+	A:	329s
+	B:	331s
+	CI:	333s
+
+	O:	374s
+	CO:	375s
+
+Block #63:
+	Type:	Full Adder
+	A:	334s
+	B:	336s
+	CI:	338s
+
+	O:	376s
+	CO:	377s
+
+Block #64:
+	Type:	Full Adder
+	A:	335s
+	B:	337s
+	CI:	339s
+
+	O:	378s
+	CO:	379s
+
+Block #65:
+	Type:	Full Adder
+	A:	340s
+	B:	342s
+	CI:	344s
+
+	O:	380s
+	CO:	381s
+
+Block #66:
+	Type:	Full Adder
+	A:	341s
+	B:	343s
+	CI:	345s
+
+	O:	382s
+	CO:	383s
+
+Block #67:
+	Type:	Full Adder
+	A:	346s
+	B:	348s
+	CI:	249
+
+	O:	384s
+	CO:	385s
+
+Block #68:
+	Type:	Full Adder
+	A:	347s
+	B:	349s
+	CI:	350s
+
+	O:	386s
+	CO:	387s
+
+Block #69:
+	Type:	Full Adder
+	A:	220
+	B:	235
+	CI:	250
+
+	O:	388s
+	CO:	389s
+
+Block #70:
+	Type:	Full Adder
+	A:	351s
+	B:	191
+	CI:	206
+
+	O:	390s
+	CO:	391s
+
+Block #71:
+	Type:	Full Adder
+	A:	221
+	B:	236
+	CI:	251
+
+	O:	392s
+	CO:	393s
+
+Block #72:
+	Type:	Full Adder
+	A:	207
+	B:	222
+	CI:	237
+
+	O:	394s
+	CO:	395s
+
+*********************** NEW LAYER *********************
+Block #74:
+	Type:	Half Adder
+	A:	352s
+	B:	211
+
+	O:	396s
+	CO:	397s
+
+Block #75:
+	Type:	Full Adder
+	A:	353s
+	B:	354s
+	CI:	356s
+
+	O:	398s
+	CO:	399s
+
+Block #76:
+	Type:	Full Adder
+	A:	355s
+	B:	357s
+	CI:	358s
+
+	O:	400s
+	CO:	401s
+
+Block #77:
+	Type:	Full Adder
+	A:	359s
+	B:	361s
+	CI:	362s
+
+	O:	402s
+	CO:	403s
+
+Block #78:
+	Type:	Full Adder
+	A:	363s
+	B:	365s
+	CI:	366s
+
+	O:	404s
+	CO:	405s
+
+Block #79:
+	Type:	Full Adder
+	A:	367s
+	B:	369s
+	CI:	370s
+
+	O:	406s
+	CO:	407s
+
+Block #80:
+	Type:	Full Adder
+	A:	371s
+	B:	373s
+	CI:	374s
+
+	O:	408s
+	CO:	409s
+
+Block #81:
+	Type:	Full Adder
+	A:	375s
+	B:	377s
+	CI:	378s
+
+	O:	410s
+	CO:	411s
+
+Block #82:
+	Type:	Full Adder
+	A:	379s
+	B:	381s
+	CI:	382s
+
+	O:	412s
+	CO:	413s
+
+Block #83:
+	Type:	Full Adder
+	A:	383s
+	B:	385s
+	CI:	386s
+
+	O:	414s
+	CO:	415s
+
+Block #84:
+	Type:	Full Adder
+	A:	387s
+	B:	389s
+	CI:	390s
+
+	O:	416s
+	CO:	417s
+
+Block #85:
+	Type:	Full Adder
+	A:	391s
+	B:	393s
+	CI:	394s
+
+	O:	418s
+	CO:	419s
+
+Block #86:
+	Type:	Full Adder
+	A:	395s
+	B:	223
+	CI:	238
+
+	O:	420s
+	CO:	421s
+
+*********************** NEW LAYER *********************
+Block #88:
+	Type:	Half Adder
+	A:	396s
+	B:	226
+
+	O:	422s
+	CO:	423s
+
+Block #89:
+	Type:	Full Adder
+	A:	397s
+	B:	398s
+	CI:	242
+
+	O:	424s
+	CO:	425s
+
+Block #90:
+	Type:	Full Adder
+	A:	399s
+	B:	400s
+	CI:	360s
+
+	O:	426s
+	CO:	427s
+
+Block #91:
+	Type:	Full Adder
+	A:	401s
+	B:	402s
+	CI:	364s
+
+	O:	428s
+	CO:	429s
+
+Block #92:
+	Type:	Full Adder
+	A:	403s
+	B:	404s
+	CI:	368s
+
+	O:	430s
+	CO:	431s
+
+Block #93:
+	Type:	Full Adder
+	A:	405s
+	B:	406s
+	CI:	372s
+
+	O:	432s
+	CO:	433s
+
+Block #94:
+	Type:	Full Adder
+	A:	407s
+	B:	408s
+	CI:	376s
+
+	O:	434s
+	CO:	435s
+
+Block #95:
+	Type:	Full Adder
+	A:	409s
+	B:	410s
+	CI:	380s
+
+	O:	436s
+	CO:	437s
+
+Block #96:
+	Type:	Full Adder
+	A:	411s
+	B:	412s
+	CI:	384s
+
+	O:	438s
+	CO:	439s
+
+Block #97:
+	Type:	Full Adder
+	A:	413s
+	B:	414s
+	CI:	388s
+
+	O:	440s
+	CO:	441s
+
+Block #98:
+	Type:	Full Adder
+	A:	415s
+	B:	416s
+	CI:	392s
+
+	O:	442s
+	CO:	443s
+
+Block #99:
+	Type:	Full Adder
+	A:	417s
+	B:	418s
+	CI:	252
+
+	O:	444s
+	CO:	445s
+
+Block #100:
+	Type:	Full Adder
+	A:	419s
+	B:	420s
+	CI:	253
+
+	O:	446s
+	CO:	447s
+
+Block #101:
+	Type:	Full Adder
+	A:	421s
+	B:	239
+	CI:	254
+
+	O:	448s
+	CO:	449s
+
+*********************** NEW LAYER *********************
+---------------------Final Stage------------------
+
+422s 241 
+423s 424s 
+425s 426s 
+427s 428s 
+429s 430s 
+431s 432s 
+433s 434s 
+435s 436s 
+437s 438s 
+439s 440s 
+441s 442s 
+443s 444s 
+445s 446s 
+447s 448s 
+449s 255 
